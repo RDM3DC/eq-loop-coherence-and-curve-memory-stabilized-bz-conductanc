@@ -1,0 +1,100 @@
+{
+  "trace_source": "flat_channel_loop_timeseries.csv",
+  "baseline_parent_law": {
+    "config": {
+      "dt": 0.05,
+      "total_time": 20.0,
+      "pi_a": 1.0,
+      "alpha_0": 1.15,
+      "mu_0": 0.72,
+      "entropy_target": 0.42,
+      "entropy_sensitivity": 0.65,
+      "damping_sensitivity": 0.8,
+      "kappa_psi": 0.0,
+      "xi": 0.0,
+      "memory_gain": 1.75,
+      "memory_decay": 1.35,
+      "damage_center": 8.0,
+      "damage_width": 1.3,
+      "slip_phase_amplitude": 1.8,
+      "edge_orientations": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "base_currents": [
+        1.0,
+        1.08,
+        0.96,
+        1.04
+      ],
+      "base_phases": [
+        0.08,
+        0.18,
+        -0.05,
+        0.02
+      ]
+    },
+    "metrics": {
+      "min_global_psi": 0.9952469152629239,
+      "peak_mean_magnitude": 1.21681891803975,
+      "final_mean_magnitude": 1.21681891803975,
+      "peak_mean_memory": 0.4305693531847837,
+      "peak_memory_concentration": 0.13928660702101595,
+      "damage_window_mean_magnitude": 0.7958191153595643,
+      "recovery_window_mean_magnitude": 1.0669977745137773
+    }
+  },
+  "loop_and_memory_stabilized": {
+    "config": {
+      "dt": 0.05,
+      "total_time": 20.0,
+      "pi_a": 1.0,
+      "alpha_0": 1.15,
+      "mu_0": 0.72,
+      "entropy_target": 0.42,
+      "entropy_sensitivity": 0.65,
+      "damping_sensitivity": 0.8,
+      "kappa_psi": 0.35,
+      "xi": 2.5,
+      "memory_gain": 1.75,
+      "memory_decay": 1.35,
+      "damage_center": 8.0,
+      "damage_width": 1.3,
+      "slip_phase_amplitude": 1.8,
+      "edge_orientations": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "base_currents": [
+        1.0,
+        1.08,
+        0.96,
+        1.04
+      ],
+      "base_phases": [
+        0.08,
+        0.18,
+        -0.05,
+        0.02
+      ]
+    },
+    "metrics": {
+      "min_global_psi": 0.9952469152629239,
+      "peak_mean_magnitude": 1.59787462406183,
+      "final_mean_magnitude": 1.59787462406183,
+      "peak_mean_memory": 0.4240014324889705,
+      "peak_memory_concentration": 0.13928660702101597,
+      "damage_window_mean_magnitude": 0.8507551760909738,
+      "recovery_window_mean_magnitude": 1.2822298941067225
+    }
+  },
+  "comparison": {
+    "damage_window_shift": 0.05493606073140955,
+    "recovery_window_shift": 0.2152321195929452,
+    "peak_memory_concentration_shift": 2.7755575615628914e-17
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "trace": {
+    "source_name": "flat_channel_loop_timeseries.csv",
+    "damage_time": 2.0,
+    "baseline_raw_entropy": 32.99318580244454
+  },
+  "scenarios": {
+    "baseline_parent_law": {
+      "config": {
+        "dt": 0.05,
+        "total_time": 20.0,
+        "pi_a": 1.0,
+        "alpha_0": 1.15,
+        "mu_0": 0.72,
+        "entropy_target": 0.42,
+        "entropy_sensitivity": 0.65,
+        "damping_sensitivity": 0.8,
+        "kappa_psi": 0.0,
+        "xi": 0.0,
+        "memory_gain": 1.75,
+        "memory_decay": 1.35,
+        "damage_center": 8.0,
+        "damage_width": 1.3,
+        "slip_phase_amplitude": 1.8,
+        "edge_orientations": [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "base_currents": [
+          1.0,
+          1.08,
+          0.96,
+          1.04
+        ],
+        "base_phases": [
+          0.08,
+          0.18,
+          -0.05,
+          0.02
+        ]
+      },
+      "metrics": {
+        "min_psi": -0.3155130418412386,
+        "peak_memory": 0.4947517221266665,
+        "peak_magnitude": 1.2555621603639409,
+        "final_magnitude": 1.2534915800474726,
+        "mean_gain": 1.0,
+        "damage_window_mean_magnitude": 0.8772643830371362,
+        "recovery_window_mean_magnitude": 1.1652610768438907,
+        "late_time_magnitude_std": 0.010755408391563501
+      }
+    },
+    "loop_only": {
+      "config": {
+        "dt": 0.05,
+        "total_time": 20.0,
+        "pi_a": 1.0,
+        "alpha_0": 1.15,
+        "mu_0": 0.72,
+        "entropy_target": 0.42,
+        "entropy_sensitivity": 0.65,
+        "damping_sensitivity": 0.8,
+        "kappa_psi": 0.35,
+        "xi": 0.0,
+        "memory_gain": 1.75,
+        "memory_decay": 1.35,
+        "damage_center": 8.0,
+        "damage_width": 1.3,
+        "slip_phase_amplitude": 1.8,
+        "edge_orientations": [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "base_currents": [
+          1.0,
+          1.08,
+          0.96,
+          1.04
+        ],
+        "base_phases": [
+          0.08,
+          0.18,
+          -0.05,
+          0.02
+        ]
+      },
+      "metrics": {
+        "min_psi": -0.3155130418412386,
+        "peak_memory": 0.4947517221266665,
+        "peak_magnitude": 1.6460888700421132,
+        "final_magnitude": 1.6460888700421132,
+        "mean_gain": 1.2591255113305038,
+        "damage_window_mean_magnitude": 1.0718205308401267,
+        "recovery_window_mean_magnitude": 1.4403825082599697,
+        "late_time_magnitude_std": 0.03097382660330175
+      }
+    },
+    "memory_only": {
+      "config": {
+        "dt": 0.05,
+        "total_time": 20.0,
+        "pi_a": 1.0,
+        "alpha_0": 1.15,
+        "mu_0": 0.72,
+        "entropy_target": 0.42,
+        "entropy_sensitivity": 0.65,
+        "damping_sensitivity": 0.8,
+        "kappa_psi": 0.0,
+        "xi": 2.5,
+        "memory_gain": 1.75,
+        "memory_decay": 1.35,
+        "damage_center": 8.0,
+        "damage_width": 1.3,
+        "slip_phase_amplitude": 1.8,
+        "edge_orientations": [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "base_currents": [
+          1.0,
+          1.08,
+          0.96,
+          1.04
+        ],
+        "base_phases": [
+          0.08,
+          0.18,
+          -0.05,
+          0.02
+        ]
+      },
+      "metrics": {
+        "min_psi": -0.3155130418412386,
+        "peak_memory": 0.4947517221266665,
+        "peak_magnitude": 0.9334029121436963,
+        "final_magnitude": 0.9334029121436963,
+        "mean_gain": 0.7169564699908716,
+        "damage_window_mean_magnitude": 0.6933840856939463,
+        "recovery_window_mean_magnitude": 0.6834949375138949,
+        "late_time_magnitude_std": 0.055244727866327996
+      }
+    },
+    "loop_and_memory_stabilized": {
+      "config": {
+        "dt": 0.05,
+        "total_time": 20.0,
+        "pi_a": 1.0,
+        "alpha_0": 1.15,
+        "mu_0": 0.72,
+        "entropy_target": 0.42,
+        "entropy_sensitivity": 0.65,
+        "damping_sensitivity": 0.8,
+        "kappa_psi": 0.35,
+        "xi": 2.5,
+        "memory_gain": 1.75,
+        "memory_decay": 1.35,
+        "damage_center": 8.0,
+        "damage_width": 1.3,
+        "slip_phase_amplitude": 1.8,
+        "edge_orientations": [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "base_currents": [
+          1.0,
+          1.08,
+          0.96,
+          1.04
+        ],
+        "base_phases": [
+          0.08,
+          0.18,
+          -0.05,
+          0.02
+        ]
+      },
+      "metrics": {
+        "min_psi": -0.3155130418412386,
+        "peak_memory": 0.4947517221266665,
+        "peak_magnitude": 1.2307586382051419,
+        "final_magnitude": 1.2307586382051419,
+        "mean_gain": 0.9105171318924828,
+        "damage_window_mean_magnitude": 0.8555754247844082,
+        "recovery_window_mean_magnitude": 0.8497939059544737,
+        "late_time_magnitude_std": 0.08312830439101922
+      }
+    }
+  },
+  "comparisons_vs_baseline": {
+    "loop_only": {
+      "damage_window_shift": 0.19455614780299058,
+      "recovery_window_shift": 0.27512143141607903,
+      "late_std_shift": 0.020218418211738247,
+      "peak_magnitude_shift": 0.3905267096781724
+    },
+    "memory_only": {
+      "damage_window_shift": -0.1838802973431899,
+      "recovery_window_shift": -0.4817661393299958,
+      "late_std_shift": 0.04448931947476449,
+      "peak_magnitude_shift": -0.32215924822024455
+    },
+    "loop_and_memory_stabilized": {
+      "damage_window_shift": -0.021688958252727986,
+      "recovery_window_shift": -0.315467170889417,
+      "late_std_shift": 0.07237289599945572,
+      "peak_magnitude_shift": -0.024803522158798996
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "source_name": "flat_channel_loop_timeseries.csv",
+  "provenance": "eq-flat-channel-loop-signature-pi-f-health-observable\\data\\flat_channel_loop_timeseries.csv",
+  "damage_time": 2.0,
+  "baseline_raw_entropy": 32.99318580244454,
+  "sample_count": 61
+}

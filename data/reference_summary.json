@@ -1,0 +1,108 @@
+{
+  "equation_id": "eq-loop-coherence-and-curve-memory-stabilized-bz-conductanc",
+  "generated_by": "simulations/run_reference_simulation.py",
+  "scenarios": {
+    "baseline_parent_law": {
+      "config": {
+        "dt": 0.05,
+        "total_time": 20.0,
+        "pi_a": 1.0,
+        "alpha_0": 1.15,
+        "mu_0": 0.72,
+        "entropy_target": 0.42,
+        "entropy_sensitivity": 0.65,
+        "damping_sensitivity": 0.8,
+        "kappa_psi": 0.0,
+        "xi": 0.0,
+        "memory_gain": 1.75,
+        "memory_decay": 1.35,
+        "damage_center": 8.0,
+        "damage_width": 1.3,
+        "slip_phase_amplitude": 1.8,
+        "edge_orientations": [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "base_currents": [
+          1.0,
+          1.08,
+          0.96,
+          1.04
+        ],
+        "base_phases": [
+          0.08,
+          0.18,
+          -0.05,
+          0.02
+        ]
+      },
+      "metrics": {
+        "min_loop_coherence": 0.2519954372874103,
+        "mean_loop_coherence": 0.8660084027387254,
+        "peak_mean_magnitude": 1.6272333616772168,
+        "final_mean_magnitude": 1.4964645271112085,
+        "peak_memory": 0.5996482233527916,
+        "mean_gain": 1.0,
+        "damage_window_mean_magnitude": 1.1846254463776364,
+        "recovery_window_mean_magnitude": 1.5845299260352912,
+        "late_time_magnitude_std": 0.04859324192123007
+      }
+    },
+    "loop_and_memory_stabilized_law": {
+      "config": {
+        "dt": 0.05,
+        "total_time": 20.0,
+        "pi_a": 1.0,
+        "alpha_0": 1.15,
+        "mu_0": 0.72,
+        "entropy_target": 0.42,
+        "entropy_sensitivity": 0.65,
+        "damping_sensitivity": 0.8,
+        "kappa_psi": 0.35,
+        "xi": 2.5,
+        "memory_gain": 1.75,
+        "memory_decay": 1.35,
+        "damage_center": 8.0,
+        "damage_width": 1.3,
+        "slip_phase_amplitude": 1.8,
+        "edge_orientations": [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "base_currents": [
+          1.0,
+          1.08,
+          0.96,
+          1.04
+        ],
+        "base_phases": [
+          0.08,
+          0.18,
+          -0.05,
+          0.02
+        ]
+      },
+      "metrics": {
+        "min_loop_coherence": 0.2519954372874103,
+        "mean_loop_coherence": 0.8660084027387254,
+        "peak_mean_magnitude": 2.102047451285949,
+        "final_mean_magnitude": 1.9381619154297325,
+        "peak_memory": 0.5996482233527916,
+        "mean_gain": 1.1745987432870835,
+        "damage_window_mean_magnitude": 1.1678215403885965,
+        "recovery_window_mean_magnitude": 1.8844867640790202,
+        "late_time_magnitude_std": 0.06441363802239837
+      }
+    }
+  },
+  "comparison": {
+    "damage_window_magnitude_shift": -0.016803905989039913,
+    "recovery_window_magnitude_shift": 0.29995683804372897,
+    "late_time_std_shift": 0.015820396101168303,
+    "peak_magnitude_shift": 0.47481408960873206
+  }
+}

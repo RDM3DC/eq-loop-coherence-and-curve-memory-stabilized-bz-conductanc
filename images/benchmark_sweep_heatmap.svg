@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="560" viewBox="0 0 820 560" role="img" aria-labelledby="title desc">
+  <title id="title">Benchmark parameter sweep heatmap</title>
+  <desc id="desc">Score heatmap over kappa_Psi and xi for the benchmark-driven simulation.</desc>
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <text x="70" y="44" font-size="28" font-family="Georgia" fill="#0f172a">Benchmark Sweep</text>
+  <text x="70" y="68" font-size="14" font-family="Georgia" fill="#334155">Score = recovery lift - 0.40 * positive damage overshoot - 0.25 * late-time variance shift.</text>
+  <text x="164" y="88" font-size="14" font-family="Georgia" fill="#0f172a">k=0.0</text> <text x="264" y="88" font-size="14" font-family="Georgia" fill="#0f172a">k=0.2</text> <text x="364" y="88" font-size="14" font-family="Georgia" fill="#0f172a">k=0.4</text> <text x="464" y="88" font-size="14" font-family="Georgia" fill="#0f172a">k=0.6</text> <text x="564" y="88" font-size="14" font-family="Georgia" fill="#0f172a">k=0.8</text> <text x="664" y="88" font-size="14" font-family="Georgia" fill="#0f172a">k=1.0</text>
+  <text x="74" y="140" font-size="14" font-family="Georgia" fill="#0f172a">xi=0.0</text> <text x="74" y="202" font-size="14" font-family="Georgia" fill="#0f172a">xi=0.6</text> <text x="74" y="264" font-size="14" font-family="Georgia" fill="#0f172a">xi=1.2</text> <text x="74" y="326" font-size="14" font-family="Georgia" fill="#0f172a">xi=1.8</text> <text x="74" y="388" font-size="14" font-family="Georgia" fill="#0f172a">xi=2.4</text> <text x="74" y="450" font-size="14" font-family="Georgia" fill="#0f172a">xi=3.0</text>
+  <rect x="140" y="110" width="94" height="56" rx="10" fill="#b4909f"/>
+<text x="152" y="134" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.000</text>
+<text x="152" y="152" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.000 / dmg 0.000</text> <rect x="240" y="110" width="94" height="56" rx="10" fill="#ac9d8c"/>
+<text x="252" y="134" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.110</text>
+<text x="252" y="152" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.157 / dmg 0.111</text> <rect x="340" y="110" width="94" height="56" rx="10" fill="#a4aa78"/>
+<text x="352" y="134" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.220</text>
+<text x="352" y="152" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.314 / dmg 0.222</text> <rect x="440" y="110" width="94" height="56" rx="10" fill="#9cb764"/>
+<text x="452" y="134" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.330</text>
+<text x="452" y="152" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.472 / dmg 0.334</text> <rect x="540" y="110" width="94" height="56" rx="10" fill="#94c450"/>
+<text x="552" y="134" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.439</text>
+<text x="552" y="152" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.629 / dmg 0.445</text> <rect x="640" y="110" width="94" height="56" rx="10" fill="#8cd23c"/>
+<text x="652" y="134" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.549</text>
+<text x="652" y="152" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.786 / dmg 0.556</text> <rect x="140" y="172" width="94" height="56" rx="10" fill="#c17a7d"/>
+<text x="152" y="196" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.183</text>
+<text x="152" y="214" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.178 / dmg -0.057</text> <rect x="240" y="172" width="94" height="56" rx="10" fill="#b98892"/>
+<text x="252" y="196" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.071</text>
+<text x="252" y="214" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.043 / dmg 0.048</text> <rect x="340" y="172" width="94" height="56" rx="10" fill="#b2929d"/>
+<text x="352" y="196" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.018</text>
+<text x="352" y="214" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.091 / dmg 0.154</text> <rect x="440" y="172" width="94" height="56" rx="10" fill="#ac9d8d"/>
+<text x="452" y="196" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.107</text>
+<text x="452" y="214" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.226 / dmg 0.260</text> <rect x="540" y="172" width="94" height="56" rx="10" fill="#a5a77c"/>
+<text x="552" y="196" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.196</text>
+<text x="552" y="214" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.361 / dmg 0.366</text> <rect x="640" y="172" width="94" height="56" rx="10" fill="#9fb26c"/>
+<text x="652" y="196" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.285</text>
+<text x="652" y="214" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.495 / dmg 0.472</text> <rect x="140" y="234" width="94" height="56" rx="10" fill="#cb6b66"/>
+<text x="152" y="258" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.311</text>
+<text x="152" y="276" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.304 / dmg -0.104</text> <rect x="240" y="234" width="94" height="56" rx="10" fill="#c2797b"/>
+<text x="252" y="258" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.197</text>
+<text x="252" y="276" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.185 / dmg -0.003</text> <rect x="340" y="234" width="94" height="56" rx="10" fill="#bd8289"/>
+<text x="352" y="258" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.121</text>
+<text x="352" y="276" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.067 / dmg 0.098</text> <rect x="440" y="234" width="94" height="56" rx="10" fill="#b78b96"/>
+<text x="452" y="258" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.047</text>
+<text x="452" y="276" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.052 / dmg 0.199</text> <rect x="540" y="234" width="94" height="56" rx="10" fill="#b2939b"/>
+<text x="552" y="258" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.028</text>
+<text x="552" y="276" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.170 / dmg 0.300</text> <rect x="640" y="234" width="94" height="56" rx="10" fill="#ac9c8d"/>
+<text x="652" y="258" font-size="13" font-family="Georgia" fill="#f8fafc">score 0.102</text>
+<text x="652" y="276" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.289 / dmg 0.401</text> <rect x="140" y="296" width="94" height="56" rx="10" fill="#d26054"/>
+<text x="152" y="320" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.407</text>
+<text x="152" y="338" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.398 / dmg -0.144</text> <rect x="240" y="296" width="94" height="56" rx="10" fill="#ca6c67"/>
+<text x="252" y="320" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.305</text>
+<text x="252" y="338" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.291 / dmg -0.047</text> <rect x="340" y="296" width="94" height="56" rx="10" fill="#c47676"/>
+<text x="352" y="320" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.223</text>
+<text x="352" y="338" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.185 / dmg 0.050</text> <rect x="440" y="296" width="94" height="56" rx="10" fill="#bf7d82"/>
+<text x="452" y="320" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.159</text>
+<text x="452" y="338" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.079 / dmg 0.147</text> <rect x="540" y="296" width="94" height="56" rx="10" fill="#bb858d"/>
+<text x="552" y="320" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.096</text>
+<text x="552" y="338" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.027 / dmg 0.244</text> <rect x="640" y="296" width="94" height="56" rx="10" fill="#b68c99"/>
+<text x="652" y="320" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.032</text>
+<text x="652" y="338" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.133 / dmg 0.340</text> <rect x="140" y="358" width="94" height="56" rx="10" fill="#d75747"/>
+<text x="152" y="382" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.482</text>
+<text x="152" y="400" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.471 / dmg -0.179</text> <rect x="240" y="358" width="94" height="56" rx="10" fill="#d06257"/>
+<text x="252" y="382" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.390</text>
+<text x="252" y="400" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.375 / dmg -0.085</text> <rect x="340" y="358" width="94" height="56" rx="10" fill="#ca6c68"/>
+<text x="352" y="382" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.300</text>
+<text x="352" y="400" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.278 / dmg 0.008</text> <rect x="440" y="358" width="94" height="56" rx="10" fill="#c67372"/>
+<text x="452" y="382" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.245</text>
+<text x="452" y="400" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.182 / dmg 0.101</text> <rect x="540" y="358" width="94" height="56" rx="10" fill="#c2797c"/>
+<text x="552" y="382" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.190</text>
+<text x="552" y="400" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.085 / dmg 0.194</text> <rect x="640" y="358" width="94" height="56" rx="10" fill="#be8086"/>
+<text x="652" y="382" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.135</text>
+<text x="652" y="400" font-size="11" font-family="Georgia" fill="#e5e7eb">rec 0.011 / dmg 0.288</text> <rect x="140" y="420" width="94" height="56" rx="10" fill="#dc503c"/>
+<text x="152" y="444" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.542</text>
+<text x="152" y="462" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.530 / dmg -0.209</text> <rect x="240" y="420" width="94" height="56" rx="10" fill="#d55a4b"/>
+<text x="252" y="444" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.457</text>
+<text x="252" y="462" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.442 / dmg -0.119</text> <rect x="340" y="420" width="94" height="56" rx="10" fill="#cf645a"/>
+<text x="352" y="444" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.373</text>
+<text x="352" y="462" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.353 / dmg -0.029</text> <rect x="440" y="420" width="94" height="56" rx="10" fill="#cb6b66"/>
+<text x="452" y="444" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.313</text>
+<text x="452" y="462" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.265 / dmg 0.061</text> <rect x="540" y="420" width="94" height="56" rx="10" fill="#c7716e"/>
+<text x="552" y="444" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.264</text>
+<text x="552" y="462" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.176 / dmg 0.151</text> <rect x="640" y="420" width="94" height="56" rx="10" fill="#c47677"/>
+<text x="652" y="444" font-size="13" font-family="Georgia" fill="#f8fafc">score -0.216</text>
+<text x="652" y="462" font-size="11" font-family="Georgia" fill="#e5e7eb">rec -0.087 / dmg 0.241</text>
+</svg>
