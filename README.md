@@ -1,5 +1,11 @@
 # Loop-Coherence and Curve-Memory Stabilized BZ Conductance Law
 
+<!-- HERO_ANIMATION:BEGIN -->
+![Loop-coherence + curve-memory stabilised BZ conductance](images/loop_memory_conductance_3d.gif)
+
+_Hero animation: **Loop-coherence + curve-memory stabilised BZ conductance**. [Download high-resolution MP4](images/loop_memory_conductance_3d.mp4)._
+<!-- HERO_ANIMATION:END -->
+
 **ID:** `eq-loop-coherence-and-curve-memory-stabilized-bz-conductanc`  
 **Tier:** derived  
 **Score:** 100  
